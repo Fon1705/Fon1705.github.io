@@ -1,28 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Kamonrat Tongchompoo</title>
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/main.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">"
+        <title>Travel list</title>
+        <link rel="stylesheet" href="style.css" />
+        <script 
+            src="https://kit.fontawesome.com/a8ad765033.js"
+            crossorigin="anonymous"
+            ></script>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-        <img class="female-support" src="images/sky.jpg">
-        <h1 class="name">Kamonrat Tongchompoo</h1>
-        <p class="job">Software Developer</p>
-        <p class="nickname">My nickname is FON</p>
-        <ul class="contact">
-            <li class="contact-item">fonkamonratfon@gmail.com</li>
-            <li class="contact-item">081-2345678</li>
-            <li class="contact-item">Suratthani,Thailand</li>
-        </ul>
-        <a class="button" href="mailto: fonkamonratfon@gmail.com">CONTACT ME</a>
+        <div class="topweb">
+            <div class="wrapper">
+                <div class="top-web-left">
+                    <a href="">home</a>
+                    <a href="">About Us</a>
+                    <a href="">Privacy policy</a>
+                    <a href="">Contact Us</a>
+                </div>
+
+                <div class="top-web-right">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+                <a href=""><i class="fab fa-pinterest"></i></a>
+                </div>
             </div>
         </div>
     </body>
+<!---------NAVIGATION NAVBAR--------->
+<header>
+    <div class="wrapper">
+        <div class="bars" id="bars"><i class="fas fa-bars" onclick="showMenu()"></i></div>
+        <a href="" class="logo"><i class="fa-sharp fa-solid fa-compass"></i>SURATVIBES</a>
+        <ul class="navbar" id="NavBar">
+            <div class="times" id="times"><i class="fas fa-times" onclick="hideMenu()"></i></div>
+            <div class="logo-991"><i class="fa-sharp fa-solid fa-compass"></i>SURATVIBES</div>
+            <li><a href="firstpage.html">Home</a></li>
+            <li><a href="cafe.html">Cafe</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="hotel">Hotel</a></li>
+            <li><a href="hilight.html">Hilight</a></li>
+            <li><a href="contact.html">Contect Us</a></li>
+        </ul>
+    <div class="search">
+        <i class="fas fa-search"></i>
+    </div>
+    </div>
+</header>
+
+<!-- BLOG CONTENT SUPER -->
+<div class="wrapper">
+    <div class="grid-container">
+<!-- SUPER GRID LEFT---------------->
+        <div class="super-grid-left">
+
+            <div class="grid-box-1 grid-box-color">
+                <div class="link">
+                    <a href="">Home</a> <i class="fas fa-chevron-right"></i>
+                    <a href="">restaurants</a>
+                </div>
+                <h1>Popular Restaurants In Suratthani</h1>
+                <div class="person">
+                    <div class="mini-person">
+                        <img src="" alt=""/> <p>by
+                            <span style="color: salmon; font-weight: 600">Surat Review</span>-August 02, 2021</p>
+                    </div>
+                <div class="icon-box-1"><i class="fas fa-comments"></i>0</div>
+                </div>
+                <div class="box-1-img">
+                    <img src="" alt=""/>
+                </div>
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                </p>
+
+                <div class="comment">
+                    <div class="quote-comment"><i class="fas fa-quote-right"></i></div>
+                    <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever
+                        since the 1500s, when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book.
+                    </p>
+                    <b>- Surat Review</b>
+                </div>
+
+                <p>
+                    It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum.
+                </p>
+
+                <ul class="mini-content">
+                    <li>
+                        <i class="fas fa-circle"></i>Lorem Ipsum has been the industry's
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>The generated Lorem Ipsum is
+                    therefore always
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>Making this the first true
+                    generator
+                    </li>
+                </ul>
+
+                <p>
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English.
+                </p>
+
+                <p>
+                    It uses a dictionary of over 200 Latin words, combined with a
+                    handful of model sentence structures, to generate Lorem Ipsum
+                    which looks reasonable. The generated Lorem Ipsum is therefore
+                    always free from repetition, injected humour, or
+                    non-characteristic words etc.
+                </p>
+
+                <ul class="tags">
+                    <li class="t-1">Tags</li>
+                    <li>City</li>
+                    <li>Country</li>
+                </ul>
+
+                <div class="social">
+                    <div class="social-box s-b-1 s-1">
+                        <i class=""
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </html>
